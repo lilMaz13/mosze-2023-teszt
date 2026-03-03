@@ -35,5 +35,6 @@ int main()
 
     // HIBA: hianyzik a delete[] b; (memory leak).
     delete[] b;
+    std::cout << "Komment" << std::endl;
     return 0;
 }
